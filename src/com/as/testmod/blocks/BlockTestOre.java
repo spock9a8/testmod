@@ -5,9 +5,7 @@ import java.util.Random;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.entity.Entity;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 
 import com.as.testmod.TestMod;
 import com.as.testmod.help.Reference;
@@ -24,7 +22,7 @@ public class BlockTestOre extends Block {
 		setHardness(3.0f);
 		setResistance(0.5f);
 		setHarvestLevel("pickaxe", 2);
-		
+
 	}
 
 	@Override
